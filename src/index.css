@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-header:#a7c3c0;
+}
+
+.table-nav-button{
+  @apply border rounded-full px-2 sm:px-4 text-xs md:text-base cursor-pointer hover:bg-white/50
+}
+
+.form-save-input {
+  @apply border rounded-xl outline-none px-2 bg-gray-600
+}
+
+.form-save-btn {
+  @apply border-none px-3 py-1 rounded-2xl hover:transition-colors cursor-pointer text-gray-200 
+}
